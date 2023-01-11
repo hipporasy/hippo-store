@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75FA5FA296E7461000004A5 /* HippoStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA5F9296E7461000004A5 /* HippoStoreApp.swift */; };
+		F75FA5FC296E7461000004A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA5FB296E7461000004A5 /* ContentView.swift */; };
+		F75FA5FE296E7464000004A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75FA5FD296E7464000004A5 /* Assets.xcassets */; };
+		F75FA601296E7464000004A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75FA600296E7464000004A5 /* Preview Assets.xcassets */; };
+		F75FA60B296E7464000004A5 /* HippoStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA60A296E7464000004A5 /* HippoStoreTests.swift */; };
+		F75FA615296E7464000004A5 /* HippoStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA614296E7464000004A5 /* HippoStoreUITests.swift */; };
+		F75FA617296E7464000004A5 /* HippoStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA616296E7464000004A5 /* HippoStoreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75FA607296E7464000004A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75FA5EE296E7460000004A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75FA5F5296E7461000004A5;
+			remoteInfo = HippoStore;
+		};
+		F75FA611296E7464000004A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75FA5EE296E7460000004A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75FA5F5296E7461000004A5;
+			remoteInfo = HippoStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F75FA5F6296E7461000004A5 /* HippoStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HippoStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75FA5F9296E7461000004A5 /* HippoStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoStoreApp.swift; sourceTree = "<group>"; };
+		F75FA5FB296E7461000004A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F75FA5FD296E7464000004A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F75FA600296E7464000004A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F75FA606296E7464000004A5 /* HippoStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippoStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75FA60A296E7464000004A5 /* HippoStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoStoreTests.swift; sourceTree = "<group>"; };
+		F75FA610296E7464000004A5 /* HippoStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippoStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75FA614296E7464000004A5 /* HippoStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoStoreUITests.swift; sourceTree = "<group>"; };
+		F75FA616296E7464000004A5 /* HippoStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75FA5F3296E7461000004A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75FA603296E7464000004A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75FA60D296E7464000004A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75FA5ED296E7460000004A5 = {
+			isa = PBXGroup;
+			children = (
+				F75FA5F8296E7461000004A5 /* HippoStore */,
+				F75FA609296E7464000004A5 /* HippoStoreTests */,
+				F75FA613296E7464000004A5 /* HippoStoreUITests */,
+				F75FA5F7296E7461000004A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75FA5F7296E7461000004A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75FA5F6296E7461000004A5 /* HippoStore.app */,
+				F75FA606296E7464000004A5 /* HippoStoreTests.xctest */,
+				F75FA610296E7464000004A5 /* HippoStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75FA5F8296E7461000004A5 /* HippoStore */ = {
+			isa = PBXGroup;
+			children = (
+				F75FA5F9296E7461000004A5 /* HippoStoreApp.swift */,
+				F75FA5FB296E7461000004A5 /* ContentView.swift */,
+				F75FA5FD296E7464000004A5 /* Assets.xcassets */,
+				F75FA5FF296E7464000004A5 /* Preview Content */,
+			);
+			path = HippoStore;
+			sourceTree = "<group>";
+		};
+		F75FA5FF296E7464000004A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F75FA600296E7464000004A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F75FA609296E7464000004A5 /* HippoStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				F75FA60A296E7464000004A5 /* HippoStoreTests.swift */,
+			);
+			path = HippoStoreTests;
+			sourceTree = "<group>";
+		};
+		F75FA613296E7464000004A5 /* HippoStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F75FA614296E7464000004A5 /* HippoStoreUITests.swift */,
+				F75FA616296E7464000004A5 /* HippoStoreUITestsLaunchTests.swift */,
+			);
+			path = HippoStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75FA5F5296E7461000004A5 /* HippoStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75FA61A296E7464000004A5 /* Build configuration list for PBXNativeTarget "HippoStore" */;
+			buildPhases = (
+				F75FA5F2296E7461000004A5 /* Sources */,
+				F75FA5F3296E7461000004A5 /* Frameworks */,
+				F75FA5F4296E7461000004A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HippoStore;
+			productName = HippoStore;
+			productReference = F75FA5F6296E7461000004A5 /* HippoStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75FA605296E7464000004A5 /* HippoStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75FA61D296E7464000004A5 /* Build configuration list for PBXNativeTarget "HippoStoreTests" */;
+			buildPhases = (
+				F75FA602296E7464000004A5 /* Sources */,
+				F75FA603296E7464000004A5 /* Frameworks */,
+				F75FA604296E7464000004A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75FA608296E7464000004A5 /* PBXTargetDependency */,
+			);
+			name = HippoStoreTests;
+			productName = HippoStoreTests;
+			productReference = F75FA606296E7464000004A5 /* HippoStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F75FA60F296E7464000004A5 /* HippoStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75FA620296E7464000004A5 /* Build configuration list for PBXNativeTarget "HippoStoreUITests" */;
+			buildPhases = (
+				F75FA60C296E7464000004A5 /* Sources */,
+				F75FA60D296E7464000004A5 /* Frameworks */,
+				F75FA60E296E7464000004A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75FA612296E7464000004A5 /* PBXTargetDependency */,
+			);
+			name = HippoStoreUITests;
+			productName = HippoStoreUITests;
+			productReference = F75FA610296E7464000004A5 /* HippoStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75FA5EE296E7460000004A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F75FA5F5296E7461000004A5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F75FA605296E7464000004A5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F75FA5F5296E7461000004A5;
+					};
+					F75FA60F296E7464000004A5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F75FA5F5296E7461000004A5;
+					};
+				};
+			};
+			buildConfigurationList = F75FA5F1296E7460000004A5 /* Build configuration list for PBXProject "HippoStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75FA5ED296E7460000004A5;
+			productRefGroup = F75FA5F7296E7461000004A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75FA5F5296E7461000004A5 /* HippoStore */,
+				F75FA605296E7464000004A5 /* HippoStoreTests */,
+				F75FA60F296E7464000004A5 /* HippoStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75FA5F4296E7461000004A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75FA601296E7464000004A5 /* Preview Assets.xcassets in Resources */,
+				F75FA5FE296E7464000004A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75FA604296E7464000004A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75FA60E296E7464000004A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75FA5F2296E7461000004A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75FA5FC296E7461000004A5 /* ContentView.swift in Sources */,
+				F75FA5FA296E7461000004A5 /* HippoStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75FA602296E7464000004A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75FA60B296E7464000004A5 /* HippoStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75FA60C296E7464000004A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75FA615296E7464000004A5 /* HippoStoreUITests.swift in Sources */,
+				F75FA617296E7464000004A5 /* HippoStoreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75FA608296E7464000004A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75FA5F5296E7461000004A5 /* HippoStore */;
+			targetProxy = F75FA607296E7464000004A5 /* PBXContainerItemProxy */;
+		};
+		F75FA612296E7464000004A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75FA5F5296E7461000004A5 /* HippoStore */;
+			targetProxy = F75FA611296E7464000004A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F75FA618296E7464000004A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F75FA619296E7464000004A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75FA61B296E7464000004A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HippoStore/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippoStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F75FA61C296E7464000004A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HippoStore/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippoStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F75FA61E296E7464000004A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippoStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HippoStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HippoStore";
+			};
+			name = Debug;
+		};
+		F75FA61F296E7464000004A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippoStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HippoStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HippoStore";
+			};
+			name = Release;
+		};
+		F75FA621296E7464000004A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippoStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HippoStore;
+			};
+			name = Debug;
+		};
+		F75FA622296E7464000004A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUNYJ43SN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippoStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HippoStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75FA5F1296E7460000004A5 /* Build configuration list for PBXProject "HippoStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75FA618296E7464000004A5 /* Debug */,
+				F75FA619296E7464000004A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75FA61A296E7464000004A5 /* Build configuration list for PBXNativeTarget "HippoStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75FA61B296E7464000004A5 /* Debug */,
+				F75FA61C296E7464000004A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75FA61D296E7464000004A5 /* Build configuration list for PBXNativeTarget "HippoStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75FA61E296E7464000004A5 /* Debug */,
+				F75FA61F296E7464000004A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75FA620296E7464000004A5 /* Build configuration list for PBXNativeTarget "HippoStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75FA621296E7464000004A5 /* Debug */,
+				F75FA622296E7464000004A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F75FA5EE296E7460000004A5 /* Project object */;
+}
