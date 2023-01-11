@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F75FA5FA296E7461000004A5 /* HippoStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA5F9296E7461000004A5 /* HippoStoreApp.swift */; };
+		F75FA5FA296E7461000004A5 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA5F9296E7461000004A5 /* App.swift */; };
 		F75FA5FC296E7461000004A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA5FB296E7461000004A5 /* ContentView.swift */; };
 		F75FA5FE296E7464000004A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75FA5FD296E7464000004A5 /* Assets.xcassets */; };
 		F75FA601296E7464000004A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75FA600296E7464000004A5 /* Preview Assets.xcassets */; };
 		F75FA60B296E7464000004A5 /* HippoStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA60A296E7464000004A5 /* HippoStoreTests.swift */; };
 		F75FA615296E7464000004A5 /* HippoStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA614296E7464000004A5 /* HippoStoreUITests.swift */; };
 		F75FA617296E7464000004A5 /* HippoStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75FA616296E7464000004A5 /* HippoStoreUITestsLaunchTests.swift */; };
+		F7B4FA86296E78B9004EC21E /* Responable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA85296E78B9004EC21E /* Responable.swift */; };
+		F7B4FA88296E79EF004EC21E /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA87296E79EF004EC21E /* Requestable.swift */; };
+		F7B4FA8A296E7A07004EC21E /* ServiceExecutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA89296E7A07004EC21E /* ServiceExecutable.swift */; };
+		F7B4FA8C296E7B24004EC21E /* ServiceDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA8B296E7B24004EC21E /* ServiceDispatcher.swift */; };
+		F7B4FA8E296E7D94004EC21E /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA8D296E7D94004EC21E /* StoreService.swift */; };
+		F7B4FA91296E7E29004EC21E /* StoreApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA90296E7E29004EC21E /* StoreApi.swift */; };
+		F7B4FA93296E7EC3004EC21E /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA92296E7EC3004EC21E /* BaseRepository.swift */; };
+		F7B4FA95296E7F21004EC21E /* StoreRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA94296E7F21004EC21E /* StoreRepository.swift */; };
+		F7B4FA97296E7F63004EC21E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA96296E7F63004EC21E /* Product.swift */; };
+		F7B4FA99296E7F8D004EC21E /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA98296E7F8D004EC21E /* ProductResponse.swift */; };
+		F7B4FA9D296E825C004EC21E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA9C296E825C004EC21E /* BaseView.swift */; };
+		F7B4FA9F296E8269004EC21E /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FA9E296E8269004EC21E /* BaseViewModel.swift */; };
+		F7B4FAA2296E82A9004EC21E /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FAA1296E82A9004EC21E /* Injector.swift */; };
+		F7B4FAA5296E8418004EC21E /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = F7B4FAA4296E8418004EC21E /* Swinject */; };
+		F7B4FAAD296E872E004EC21E /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FAAC296E872E004EC21E /* Container.swift */; };
+		F7B4FAAF296E8842004EC21E /* Injector+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FAAE296E8842004EC21E /* Injector+Injection.swift */; };
+		F7B4FAB2296E8869004EC21E /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FAB1296E8869004EC21E /* ProductView.swift */; };
+		F7B4FAB4296E888F004EC21E /* ProductView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4FAB3296E888F004EC21E /* ProductView+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +53,7 @@
 
 /* Begin PBXFileReference section */
 		F75FA5F6296E7461000004A5 /* HippoStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HippoStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75FA5F9296E7461000004A5 /* HippoStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoStoreApp.swift; sourceTree = "<group>"; };
+		F75FA5F9296E7461000004A5 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		F75FA5FB296E7461000004A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F75FA5FD296E7464000004A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75FA600296E7464000004A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +62,23 @@
 		F75FA610296E7464000004A5 /* HippoStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippoStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75FA614296E7464000004A5 /* HippoStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoStoreUITests.swift; sourceTree = "<group>"; };
 		F75FA616296E7464000004A5 /* HippoStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippoStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7B4FA85296E78B9004EC21E /* Responable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responable.swift; sourceTree = "<group>"; };
+		F7B4FA87296E79EF004EC21E /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		F7B4FA89296E7A07004EC21E /* ServiceExecutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceExecutable.swift; sourceTree = "<group>"; };
+		F7B4FA8B296E7B24004EC21E /* ServiceDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDispatcher.swift; sourceTree = "<group>"; };
+		F7B4FA8D296E7D94004EC21E /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		F7B4FA90296E7E29004EC21E /* StoreApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreApi.swift; sourceTree = "<group>"; };
+		F7B4FA92296E7EC3004EC21E /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
+		F7B4FA94296E7F21004EC21E /* StoreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreRepository.swift; sourceTree = "<group>"; };
+		F7B4FA96296E7F63004EC21E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F7B4FA98296E7F8D004EC21E /* ProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponse.swift; sourceTree = "<group>"; };
+		F7B4FA9C296E825C004EC21E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F7B4FA9E296E8269004EC21E /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		F7B4FAA1296E82A9004EC21E /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		F7B4FAAC296E872E004EC21E /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		F7B4FAAE296E8842004EC21E /* Injector+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Injector+Injection.swift"; sourceTree = "<group>"; };
+		F7B4FAB1296E8869004EC21E /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		F7B4FAB3296E888F004EC21E /* ProductView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductView+ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B4FAA5296E8418004EC21E /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +130,11 @@
 		F75FA5F8296E7461000004A5 /* HippoStore */ = {
 			isa = PBXGroup;
 			children = (
-				F75FA5F9296E7461000004A5 /* HippoStoreApp.swift */,
-				F75FA5FB296E7461000004A5 /* ContentView.swift */,
-				F75FA5FD296E7464000004A5 /* Assets.xcassets */,
-				F75FA5FF296E7464000004A5 /* Preview Content */,
+				F7B4FAA0296E82A3004EC21E /* DI */,
+				F7B4FA7F296E785B004EC21E /* Common */,
+				F7B4FA7C296E7830004EC21E /* Data */,
+				F7B4FA7D296E7837004EC21E /* Presentation */,
+				F7B4FA7E296E783E004EC21E /* Support */,
 			);
 			path = HippoStore;
 			sourceTree = "<group>";
@@ -127,6 +164,110 @@
 			path = HippoStoreUITests;
 			sourceTree = "<group>";
 		};
+		F7B4FA7C296E7830004EC21E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FA84296E7893004EC21E /* Service */,
+				F7B4FA83296E787F004EC21E /* Repository */,
+				F7B4FA82296E787A004EC21E /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F7B4FA7D296E7837004EC21E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FAB0296E8862004EC21E /* Product */,
+				F7B4FA9B296E8250004EC21E /* Base */,
+				F75FA5F9296E7461000004A5 /* App.swift */,
+				F75FA5FB296E7461000004A5 /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F7B4FA7E296E783E004EC21E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F75FA5FD296E7464000004A5 /* Assets.xcassets */,
+				F75FA5FF296E7464000004A5 /* Preview Content */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F7B4FA7F296E785B004EC21E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F7B4FA82296E787A004EC21E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FA96296E7F63004EC21E /* Product.swift */,
+				F7B4FA98296E7F8D004EC21E /* ProductResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7B4FA83296E787F004EC21E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FA92296E7EC3004EC21E /* BaseRepository.swift */,
+				F7B4FA94296E7F21004EC21E /* StoreRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F7B4FA84296E7893004EC21E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FA8F296E7E24004EC21E /* Api */,
+				F7B4FA85296E78B9004EC21E /* Responable.swift */,
+				F7B4FA87296E79EF004EC21E /* Requestable.swift */,
+				F7B4FA89296E7A07004EC21E /* ServiceExecutable.swift */,
+				F7B4FA8B296E7B24004EC21E /* ServiceDispatcher.swift */,
+				F7B4FA8D296E7D94004EC21E /* StoreService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F7B4FA8F296E7E24004EC21E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FA90296E7E29004EC21E /* StoreApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		F7B4FA9B296E8250004EC21E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FA9C296E825C004EC21E /* BaseView.swift */,
+				F7B4FA9E296E8269004EC21E /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F7B4FAA0296E82A3004EC21E /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FAA1296E82A9004EC21E /* Injector.swift */,
+				F7B4FAAC296E872E004EC21E /* Container.swift */,
+				F7B4FAAE296E8842004EC21E /* Injector+Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		F7B4FAB0296E8862004EC21E /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4FAB1296E8869004EC21E /* ProductView.swift */,
+				F7B4FAB3296E888F004EC21E /* ProductView+ViewModel.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +284,9 @@
 			dependencies = (
 			);
 			name = HippoStore;
+			packageProductDependencies = (
+				F7B4FAA4296E8418004EC21E /* Swinject */,
+			);
 			productName = HippoStore;
 			productReference = F75FA5F6296E7461000004A5 /* HippoStore.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +359,9 @@
 				Base,
 			);
 			mainGroup = F75FA5ED296E7460000004A5;
+			packageReferences = (
+				F7B4FAA3296E8418004EC21E /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = F75FA5F7296E7461000004A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +404,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B4FA88296E79EF004EC21E /* Requestable.swift in Sources */,
+				F7B4FA9D296E825C004EC21E /* BaseView.swift in Sources */,
+				F7B4FA95296E7F21004EC21E /* StoreRepository.swift in Sources */,
+				F7B4FA9F296E8269004EC21E /* BaseViewModel.swift in Sources */,
+				F7B4FA91296E7E29004EC21E /* StoreApi.swift in Sources */,
 				F75FA5FC296E7461000004A5 /* ContentView.swift in Sources */,
-				F75FA5FA296E7461000004A5 /* HippoStoreApp.swift in Sources */,
+				F7B4FA97296E7F63004EC21E /* Product.swift in Sources */,
+				F7B4FAB4296E888F004EC21E /* ProductView+ViewModel.swift in Sources */,
+				F7B4FAA2296E82A9004EC21E /* Injector.swift in Sources */,
+				F7B4FA8E296E7D94004EC21E /* StoreService.swift in Sources */,
+				F7B4FA8C296E7B24004EC21E /* ServiceDispatcher.swift in Sources */,
+				F7B4FAB2296E8869004EC21E /* ProductView.swift in Sources */,
+				F7B4FA86296E78B9004EC21E /* Responable.swift in Sources */,
+				F75FA5FA296E7461000004A5 /* App.swift in Sources */,
+				F7B4FA99296E7F8D004EC21E /* ProductResponse.swift in Sources */,
+				F7B4FAAF296E8842004EC21E /* Injector+Injection.swift in Sources */,
+				F7B4FAAD296E872E004EC21E /* Container.swift in Sources */,
+				F7B4FA93296E7EC3004EC21E /* BaseRepository.swift in Sources */,
+				F7B4FA8A296E7A07004EC21E /* ServiceExecutable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +580,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HippoStore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HippoStore/Support/Preview Content\"";
 				DEVELOPMENT_TEAM = ZUNYJ43SN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -445,7 +609,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HippoStore/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HippoStore/Support/Preview Content\"";
 				DEVELOPMENT_TEAM = ZUNYJ43SN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -583,6 +747,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7B4FAA3296E8418004EC21E /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7B4FAA4296E8418004EC21E /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7B4FAA3296E8418004EC21E /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F75FA5EE296E7460000004A5 /* Project object */;
 }
